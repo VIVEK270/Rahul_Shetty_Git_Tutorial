@@ -1,0 +1,5 @@
+23:08:01.356 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+23:08:01.756 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xceaaaa4f581944d5
+23:08:01.941 [TestNG-tests-3] INFO  Academy.Validatetitle - Driver is initialized in ValidateTitle class
+23:08:09.621 [TestNG-tests-3] INFO  Academy.Validatetitle - Navigated to check Title
+23:08:10.051 [TestNG-tests-2] INFO  Academy.ValidateNavBar - Successfully validated Navigation bar

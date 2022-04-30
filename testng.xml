@@ -1,0 +1,20 @@
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="Academy.Listeners"/>
+    </listeners>
+    <test name="Home page validation">
+        <classes>
+            <class name="Academy.HomePage"/>
+        </classes>
+    </test>
+    <test name="Navigation bar validation">
+       <classes>
+          <class name="Academy.ValidateNavBar"/>
+       </classes>
+    </test>
+    <test name="Title validation">
+       <classes>
+           <class name="Academy.Validatetitle"/>
+       </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.411 s <<< FAILURE! - in TestSuite
+Academy.HomePage.basePageNavigation[restriceduser@ejd.com, 333, NON RESTRICTED USER](2)  Time elapsed: 0.191 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='sign_in']"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-T5AR5GF', ip: '192.168.43.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bab5a662a34146596a9d87fc3904ae54, findElement {using=css selector, value=a[href*='sign_in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62081/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bab5a662a34146596a9d87fc3904ae54
+	at Academy.HomePage.basePageNavigation(HomePage.java:28)
+
+Academy.Validatetitle.basePageNavigation  Time elapsed: 0.092 s  <<< FAILURE!
+java.lang.AssertionError: expected [sssss] but found [An Academy to Learn Earn & Shine  in your QA Career]
+	at Academy.Validatetitle.basePageNavigation(Validatetitle.java:20)
+

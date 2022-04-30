@@ -1,0 +1,7 @@
+22:55:00.257 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xca5a63f89aa84365
+22:55:09.059 [main] INFO  Academy.HomePage - RESTRICTED USER
+22:55:09.288 [main] INFO  Academy.HomePage - SUCCESS IN HOME PAGE VALIDATION
+22:55:17.582 [main] INFO  Academy.HomePage - NON RESTRICTED USER
+22:55:17.899 [main] INFO  Academy.HomePage - SUCCESS IN HOME PAGE VALIDATION
+22:55:23.793 [main] INFO  Academy.ValidateNavBar - Successfully validated Navigation bar
+22:55:25.561 [main] INFO  Academy.Validatetitle - Driver is initialized in ValidateTitle class
